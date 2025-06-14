@@ -1,0 +1,22 @@
+{
+	"name": "playwright-ff-waitforresponse",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"postinstall": "npx playwright install --with-deps"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "24.0.1"
+	},
+	"dependencies": {
+		"@playwright/test": "1.52.0",
+		"cors": "2.8.5",
+		"express": "5.1.0"
+	}
+}
